@@ -1,7 +1,8 @@
-package com.company;
+package AtmInterface;
+
 import java.util.Scanner;
 
-class AtmInterface{
+public class AtmInterface {
     String name;
     double balance = 10000;
     int pin;
@@ -35,8 +36,7 @@ class AtmInterface{
         }
     }
 }
-
-class UserDetails extends AtmInterface{
+class UserDetails extends AtmInterface {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
@@ -79,3 +79,8 @@ class UserDetails extends AtmInterface{
         sc.close();
     }
 }
+
+
+       
+        
+                    
